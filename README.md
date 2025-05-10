@@ -1,5 +1,3 @@
-Here's the complete `README.md` file in proper Markdown format:
-
 
 # Spot the Difference Game
 
@@ -29,7 +27,7 @@ A dynamic "Spot the Difference" game that loads configurations from JSON and fea
 ### Running the Game
 #### Method 1: Simple Server
 ```bash
-npx serve
+npx server
 ```
 Then open `http://localhost:3000` in your browser.
 
