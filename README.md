@@ -3,8 +3,6 @@ Here's the complete `README.md` file in proper Markdown format:
 ```markdown
 # Spot the Difference Game
 
-![Game Screenshot](./assets/images/game-screenshot.png)
-
 A dynamic "Spot the Difference" game that loads configurations from JSON and features:
 - Multiple image sets with custom differences
 - Animated transitions
@@ -20,9 +18,9 @@ A dynamic "Spot the Difference" game that loads configurations from JSON and fea
 
 ### Installation
 1. Clone the repository:
-   ```bash
+
    git clone https://github.com/your-username/spot-the-difference.git
-   ```
+
 2. Navigate to project directory:
    ```bash
    cd spot-the-difference
@@ -136,7 +134,4 @@ spot-the-difference/
 ## 📜 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## ✉️ Contact
-Your Name - your.email@example.com  
-Project Link: [https://github.com/your-username/spot-the-difference](https://github.com/your-username/spot-the-difference)
-```
+
