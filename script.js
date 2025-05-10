@@ -93,7 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Enhanced image loader with flip transition
     function loadImageWithFlip(imgElement, newSrc, flipContainer, isInitialLoad = false) {
         return new Promise((resolve) => {
             if (isInitialLoad) {
@@ -149,7 +148,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Load image set with optional transition
     function loadImageSet(index, isInitialLoad = false) {
         if (index >= gameConfig.imageSets.length) {
             endGame(true);
