@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spot the Difference</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <h1 id="game-title">Loading Game...</h1>
+        <div class="score-timer">
+            <div class="score">Differences found: <span id="score">0</span>/<span id="total-differences">0</span></div>
+            <div class="timer-container">
+  <div class="timer-bar" id="timer-bar"></div>
+  <div class="timer-text" id="timer-text">02:00</div>
+</div>
+        </div>
+        <div class="images-container">
+            <div class="image-wrapper">
+                <img id="image1" src="" alt="First image">
+                <canvas id="canvas1"></canvas>
+            </div>
+            <div class="image-wrapper">
+                <img id="image2" src="" alt="Second image">
+                <canvas id="canvas2"></canvas>
+            </div>
+        </div>
+    </div>
+    <audio id="click-sound" src=""></audio>
+    <audio id="success-sound" src=""></audio>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{
+  "gameTitle": "Spot the Difference",
+  "soundFiles": {
+    "click": "assets/sounds/click.mp3",
+    "success": "assets/sounds/success.mp3",
+    "fail": "assets/sounds/fail.mp3"
+  },
+  "imageSets": [
+    {
+      "image1": "assets/images/image1-01.jpg",
+    "image2": "assets/images/image1-02.jpg",
+      "differences": [
+    {
+      "topLeft": { "x": 79, "y": 176 },
+      "topRight": { "x": 122, "y": 176 },
+      "bottomLeft": { "x": 19, "y": 385 },
+      "bottomRight": { "x": 93, "y": 385 },
+      "circleSize": 60
+    },
+    {
+      "topLeft": { "x": 138, "y": 163 },
+      "topRight": { "x": 214, "y": 163 },
+      "bottomLeft": { "x": 123, "y": 270 },
+      "bottomRight": { "x": 236, "y": 211 },
+      "circleSize": 60
+    },
+    {
+      "topLeft": { "x": 280, "y": 496 },
+      "topRight": { "x": 328, "y": 492 },
+      "bottomLeft": { "x": 279, "y": 537 },
+      "bottomRight": { "x": 325, "y": 534 },
+      "circleSize": 60 
+    },
+    {
+      "topLeft": { "x": 255, "y": 311 },
+      "topRight": { "x": 285, "y": 311 },
+      "bottomLeft": { "x": 247, "y": 382 },
+      "bottomRight": { "x": 281, "y": 386 },
+      "circleSize": 60 
+    },
+    {
+      "topLeft": { "x": 343, "y": 391 },
+      "topRight": { "x": 373, "y": 390 },
+      "bottomLeft": { "x": 340, "y": 416 },
+      "bottomRight": { "x": 374, "y": 419 },
+      "circleSize": 60 
+    },
+    {
+      "topLeft": { "x": 74, "y": 399 },
+      "topRight": { "x": 146, "y": 407 },
+      "bottomLeft": { "x": 57, "y": 459 },
+      "bottomRight": { "x": 143, "y": 475 },
+      "circleSize": 60 
+    },
+    {
+      "topLeft": { "x": 347, "y": 171 },
+      "topRight": { "x": 412, "y": 174 },
+      "bottomLeft": { "x": 338, "y": 237 },
+      "bottomRight": { "x": 422, "y": 230 },
+      "circleSize": 60 
+    },
+    {
+      "topLeft": { "x": 156, "y": 326 },
+      "topRight": { "x": 215, "y": 326 },
+      "bottomLeft": { "x": 156, "y": 350 },
+      "bottomRight": { "x": 213, "y": 361 },
+      "circleSize": 60 
+    },
+    {
+      "topLeft": { "x": 417, "y": 418 },
+      "topRight": { "x": 471, "y": 424 },
+      "bottomLeft": { "x": 414, "y": 495 },
+      "bottomRight": { "x": 465, "y": 499 },
+      "circleSize": 60 
+    }
+  ]
+    },
+        {
+      "image1": "assets/images/image2-01.jpg",
+    "image2": "assets/images/image2-02.jpg",
+      "differences": [
+    {
+      "topLeft": { "x": 279, "y": 106 },
+      "topRight": { "x": 363, "y": 157 },
+      "bottomLeft": { "x": 269, "y": 135 },
+      "bottomRight": { "x": 348, "y": 190 },
+      "circleSize": 60
+    },
+    {
+      "topLeft": { "x": 8, "y": 206 },
+      "topRight": { "x": 120, "y": 228 },
+      "bottomLeft": { "x": 7, "y": 360 },
+      "bottomRight": { "x": 120, "y": 320 },
+      "circleSize": 60
+    }
+  ]
+    },
+            {
+      "image1": "assets/images/image3-01.jpg",
+    "image2": "assets/images/image3-02.jpg",
+      "differences": [
+    {
+      "topLeft": { "x": 9, "y": 80 },
+      "topRight": { "x": 267, "y": 100 },
+      "bottomLeft": { "x": 8, "y": 2 },
+      "bottomRight": { "x": 299, "y": 5 },
+      "circleSize": 60
+    },
+    {
+      "topLeft": { "x": 382, "y": 5 },
+      "topRight": { "x": 273, "y": 108 },
+      "bottomLeft": { "x": 402, "y": 216 },
+      "bottomRight": { "x": 517, "y": 12 },
+      "circleSize": 60
+    },
+    {
+      "topLeft": { "x": 224, "y": 561 },
+      "topRight": { "x": 271, "y": 572 },
+      "bottomLeft": { "x": 257, "y": 592 },
+      "bottomRight": { "x": 199, "y": 592 },
+      "circleSize": 60
+    },
+    {
+      "topLeft": { "x": 270, "y": 242 },
+      "topRight": { "x": 350, "y": 245 },
+      "bottomLeft": { "x": 266, "y": 291 },
+      "bottomRight": { "x": 347, "y": 293 },
+      "circleSize": 60
+    },
+    {
+      "topLeft": { "x": 25, "y": 358 },
+      "topRight": { "x": 125, "y": 396 },
+      "bottomLeft": { "x": 10, "y": 439 },
+      "bottomRight": { "x": 65, "y": 461 },
+      "circleSize": 60
+    }
+  ]
+    }
+  ],
+  "timerDuration": 120,
+  "successMessage": "Great job! Time remaining: "
+}
+
