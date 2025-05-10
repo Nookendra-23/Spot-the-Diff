@@ -71,8 +71,8 @@ text-align: center;
 }
 
 canvas {
-    pointer-events: none; /* Allows clicks to pass through to the image */
-    transition: all 0.3s ease; /* Smooth appearance */
+    pointer-events: none; 
+    transition: all 0.3s ease;
 }
 @media (max-width: 768px) {
     .images-container {
